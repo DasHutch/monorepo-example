@@ -1,0 +1,28 @@
+{
+  "name": "@example/playground.greeting",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://example.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/monorepo-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/monorepo-example/issues",
+    "email": "bugs@email.com"
+  },
+  "contributors": [
+    {
+      "name": "engineering team",
+      "email": "engineering@email.com"
+    }
+  ],
+  "config": {},
+  "scripts": {
+    "clean": "lerna exec --scope  $npm_package_name -- npm-run-all -p clean-build clean-coverage clean-deps",
+    "clean-build": "lerna exec --scope $npm_package_name -- rm -rf build",
+    "clean-coverage": "lerna exec --scope  $npm_package_name -- rm -rf coverage",
+    "clean-deps": "lerna exec --scope  $npm_package_name -- rm -rf node_modules",
+    "test": "jest --coverage --verbose"
+  }
+}

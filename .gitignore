@@ -1,0 +1,20 @@
+# IDEs
+.idea
+.vscode
+
+# Logs
+*.log
+
+# Deps
+node_modules
+
+# Code Coverage
+coverage
+
+# Storybook
+.storybook
+storybook-static
+
+# OS Junk
+[Tt]humbs.db
+*.DS_Store

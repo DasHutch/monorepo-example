@@ -1,0 +1,19 @@
+{
+  "extends": "../../../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "../../../../packages",
+    "rootDir": "../../src",
+    "outDir": "build/dist"
+  },
+  "include": [
+    "../../src/**/*"
+  ],
+  "exclude": [
+    "../../../../scripts/jest.init.js",
+    "apps/hello-jane/node_modules",
+    "build",
+    "config",
+    "coverage",
+    "scripts"
+  ]
+}
