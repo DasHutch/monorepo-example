@@ -26,13 +26,40 @@ this is where all standalone apps will live
 
 ## Apps
 ### Creating a new `app`
+
+// TODO
+
 #### Serve (development)
+
+`yarn start`
+
 #### Testing
-#### Unit
-#### Integration
+
+`yarn test`
+
+##### Unit
+
+`yarn test:unit`
+
+`yarn test:unit:watch`
+
+##### Integration
+
+`yarn test:e2e`
+
+`yarn test:e2e:watch`
+
 #### Logging
+
+// TODO:
+
 #### Build (production)
+
+`yarn build`
+
 #### Docker
+
+// TODO:
 
 ## Packages
 ### Creating a new `package` (`component`)
@@ -41,8 +68,17 @@ this is where all standalone apps will live
   storybook (local)
   
 #### Testing
-#### Unit
-#### Integration
+
+`yarn test`
+
 #### Storybook / Styleguide
+
+// TODO
+
 #### Logging
+
+// TODO
+
 #### Docker
+
+// TODO
